@@ -1,0 +1,5 @@
+services:
+    usersvc_schema:
+        class: UserSvcBundle\Schema\Schema
+        arguments:
+          - '@doctrine.orm.entity_manager'
